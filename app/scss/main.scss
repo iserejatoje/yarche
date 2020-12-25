@@ -157,6 +157,7 @@ html {
       }
       .input {
         display: flex;
+        letter-spacing: .4px;
         align-items: center;
         margin-bottom: 0;
         @include respond($small-resolution) {
@@ -200,6 +201,7 @@ html {
       font-weight: 600;
       font-size: 18px;
       display: block;
+      letter-spacing: .4px;
       margin-bottom: 20px;
     }
   }
@@ -234,6 +236,10 @@ html {
     &.mobile {
       opacity: .6;
       margin-top: 50px;
+
+      @include respond($small-resolution) {
+        display: none;
+      }
     }
   }
 
