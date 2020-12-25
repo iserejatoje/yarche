@@ -113,6 +113,7 @@ html {
     }
 
     .complaint-button {
+      letter-spacing: .4px;
 
       @include respond(0, $small-resolution) {
         height: 76px;
